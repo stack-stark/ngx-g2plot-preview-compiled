@@ -10,21 +10,36 @@ function createDir(dir) {
 }
 
 const dirss = [
-  './bar/bar-basic',
-  './bar/bar-stacked',
-  './bar/bar-grouped',
-  './bar/bar-percent',
-  './bar/bar-range',
-  './column/column-basic',
-  './column/column-stacked',
-  './column/column-grouped',
-  './column/column-percent',
-  './column/column-range',
-  './pie/pie-basic',
-  './pie/donut-basic',
-  './gauge/gauge-basic',
-  './waterfall/waterfall-basic',
-  './scatter/scatter-basic',
+  // './bar/bar-basic',
+  // './bar/bar-stacked',
+  // './bar/bar-grouped',
+  // './bar/bar-percent',
+  // './bar/bar-range',
+  // './column/column-basic',
+  // './column/column-stacked',
+  // './column/column-grouped',
+  // './column/column-percent',
+  // './column/column-range',
+  // './pie/pie-basic',
+  // './pie/donut-basic',
+  // './gauge/gauge-basic',
+  // './waterfall/waterfall-basic',
+  // './scatter/scatter-basic',
+  // './treemap/treemap-basic',
+  // './sankey/sankey-basic',
+  // './chord/chord-basic',
+  // './stock/stock',
+  // './funnel/funnel',
+  // './word-cloud/word-cloud',
+
+  // './sunburst',
+  // './radial-bar',
+  // './box',
+
+  './sunburst/sunburst',
+  './radial-bar/radial-bar',
+  './box/box',
+
 ];
 
 function createF(name) {
@@ -48,9 +63,9 @@ function createF(name) {
     });
   }
 
-for (const it of dirss) {
-    createDir(it);
-}
+// for (const it of dirss) {
+//     createDir(it);
+// }
 
 setTimeout(() => {
     for (const it of dirss) {
